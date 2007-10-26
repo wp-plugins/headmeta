@@ -4,7 +4,6 @@ Donate link: http://dougal.gunters.org/donate
 Tags: seo, meta, keywords, posts, search, google, description, links, link
 Requires at least: 1.2
 Tested up to: 2.3.1
-Stable tag: 1.3
 
 Automatically add `<link>`, `<meta>` description and `<meta>` keywords to your
 HTML on a per-post (or page) basis.
@@ -35,17 +34,11 @@ If you need to create arbitrary `<link>` or `<meta>` tags, you can use
 that custom field will be plugged into the generated `<link>` or `<meta>` tag.
 For example, if you added the following keys and values:
 
-<table>
- <tr>
-  <th>Key</th><th>Value</th>
- </tr>
- <tr>
-  <td>head_link</td><td>rel="seealso" href="http://example.com/movies/"</td>
- </tr>
- <tr>
-  <td>head_meta</td><td>name="keywords" content="entertainment,movies"</td>
- </tr>
-</table>
+  **KEY**: `head\_link`
+  **VALUE**: `rel="seealso" href="http://example.com/movies/"`
+
+  **KEY**: `head\_meta`
+  **VALUE**: `name="keywords" content="entertainment,movies"`
 
 This would generate two tags in the <head> of the page when someone visited
 the permalink for the post:
