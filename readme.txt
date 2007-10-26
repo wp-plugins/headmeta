@@ -4,6 +4,7 @@ Donate link: http://dougal.gunters.org/donate
 Tags: seo, meta, keywords, posts, search, google, description, links, link
 Requires at least: 1.2
 Tested up to: 2.3.1
+Stable tag: 1.3
 
 Automatically add `<link>`, `<meta>` description and `<meta>` keywords to your
 HTML on a per-post (or page) basis.
