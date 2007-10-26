@@ -20,19 +20,18 @@ See the Installation section for more detailed examples.
 
 == Installation ==
 
-1. Upload `headmeta` folder and its comments to your wp-contents/plugins
-directory.
+1. Upload the `headmeta` folder and its contents to your `wp-contents/plugins` directory.
 2. Activate in the `Plugins` menu.
 3. Add Custom Fields to your posts.
 
 To use this plugin, you add key/value pairs in the Custom Fields section
-when you create or edit a post or page. If you enter `description` or
+when you create or edit a post or page. If you enter `description` or 
 `keywords` as the name of the key, HeadMeta will automatically generate an
 appropriate `<meta>` "description" or "keywords" tag in the head of your
 HTML.
 
 If you need to create arbitrary `<link>` or `<meta>` tags, you can use
-"head_link" and "head_meta" as the key. Whatever you enter as the value for
+"head\_link" and "head\_meta" as the key. Whatever you enter as the value for
 that custom field will be plugged into the generated `<link>` or `<meta>` tag.
 For example, if you added the following keys and values:
 
