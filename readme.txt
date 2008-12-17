@@ -1,10 +1,10 @@
 === HeadMeta ===
 Contributors: dougal
 Donate link: http://dougal.gunters.org/donate
-Tags: seo, meta, keywords, posts, search, google, description, links, link
+Tags: seo, meta, keywords, posts, search, google, description, links, link, headmeta, metadata, pages
 Requires at least: 1.2
-Tested up to: 2.3.1
-Stable tag: 1.3
+Tested up to: 2.7.1
+Stable tag: 1.4
 
 Automatically add `<link>`, `<meta>` description and `<meta>` keywords to your
 HTML on a per-post (or page) basis.
@@ -31,14 +31,14 @@ appropriate `<meta>` "description" or "keywords" tag in the head of your
 HTML.
 
 If you need to create arbitrary `<link>` or `<meta>` tags, you can use
-"head\_link" and "head\_meta" as the key. Whatever you enter as the value for
+"`head_link`" and "`head_meta`" as the key. Whatever you enter as the value for
 that custom field will be plugged into the generated `<link>` or `<meta>` tag.
 For example, if you added the following keys and values:
 
-  **KEY**: `head\_link`
+  **KEY**: `head_link`
   **VALUE**: `rel="seealso" href="http://example.com/movies/"`
 
-  **KEY**: `head\_meta`
+  **KEY**: `head_meta`
   **VALUE**: `name="keywords" content="entertainment,movies"`
 
 This would generate two tags in the <head> of the page when someone visited
