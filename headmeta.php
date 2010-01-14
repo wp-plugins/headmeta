@@ -1,11 +1,12 @@
 <?php
 /*
 Plugin Name: HeadMeta
-Plugin URI: http://dougal.gunters.org/blog/2004/06/17/my-first-wordpress-plugin-headmeta
+Plugin URI: http://dougal.gunters.org/plugins/headmeta
+Demo URI: http://dougal.gunters.org/blog/2004/06/17/my-first-wordpress-plugin-headmeta
 Description: This plugin allows you to add &lt;meta&gt; and &lt;link&gt; tags to the &lt;head&gt; of your posts or pages based on post custom fields. Use keys named "head_meta" and "head_link". Also, if you have a custom field named "keyword" or "keywords", it will automatically generate a standard &lt;meta name="keywords" content="whatever" /&gt; tag, which some search engines will use for indexing. Likewise for a key of 'description' generating a standard description meta tag.
 Author: Dougal Campbell
 Author URI: http://dougal.gunters.org/
-Version: 1.4
+Version: 1.5
 
 TODO:
  * Add a config page

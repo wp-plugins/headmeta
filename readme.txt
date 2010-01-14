@@ -3,8 +3,8 @@ Contributors: dougal
 Donate link: http://dougal.gunters.org/donate
 Tags: seo, meta, keywords, posts, search, google, description, links, link, headmeta, metadata, pages
 Requires at least: 1.2
-Tested up to: 2.9
-Stable tag: 1.4
+Tested up to: 3.0-alpha
+Stable tag: 1.5
 
 Automatically add `<link>`, `<meta>` description and `<meta>` keywords to your
 HTML on a per-post (or page) basis.
