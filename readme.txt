@@ -47,3 +47,7 @@ the permalink for the post:
  `<link rel="seealso" href="http://example.com/movies/" />`
  `<meta name="keywords" content="entertainment,movies" />`
 
+== Changelog ==
+= 1.5 2010-01-14 =
+* Tested up to WordPress 3.0-alpha
+
